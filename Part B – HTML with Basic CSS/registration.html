@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="#">
+       <div class="form-input">
+         <p>
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name" required>
+        </p>
+
+        <p>
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail" placeholder="Enter your Email" required>
+        </p>
+
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </p>
+
+        <div class="gender">
+         <fieldset>
+            <legend>Select your gender</legend>
+           <input type="radio" name="gender" id="male" value="male">
+          <label for="male">Male</label>
+           
+          <input type="radio" name="gender" id="female" value="female">
+          <label for="female">Female</label>
+        
+          <input type="radio" name="gender" id="other" value="other">
+          <label for="other">Other</label>
+            
+         </fieldset> 
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Select your hobbies</legend>
+                <input type="checkbox" id="coding" value="coding" name="coding">
+                <label for="coding">Coding</label>
+
+                <input type="checkbox" id="travelling" value="travelling" name="travelling">
+                <label for="travelling">Travelling</label>
+
+                <input type="checkbox" id="music" value="music" name="music">
+                <label for="music">Music</label>
+            </fieldset>
+        </div>
+
+        <div class="submit-btn">
+            <button type="submit">Submit</button>
+        </div>
+       </div>  
+    </form>
+</body>
+</html>

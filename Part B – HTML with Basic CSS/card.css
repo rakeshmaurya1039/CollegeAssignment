@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    height: 500px;
+    width: 400px;
+    margin: 20px 100px ;
+    border-radius: 7px;
+    box-shadow:  2px 2px 5px black;
+    transition: 0.5s ease-in ;
+}
+
+img {
+    height:  70%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #546D64;
+    padding: 10px;
+}
+
+p {
+    color: #28666E;
+   padding: 10px;
+   font-size: 1.1em;
+   
+} 
+
+.card:hover {
+    box-shadow:  3px 3px 5px black;
+}
