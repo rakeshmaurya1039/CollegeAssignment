@@ -1,0 +1,29 @@
+.btn {
+    background-color: #1F2041;
+    padding: 10px;
+    color: #fff;
+    height: 4rem;
+    width: 10rem;
+    margin: 3rem;
+}
+
+#btn1:hover {
+    background-color: #FFC857;
+    height: 6rem;
+    width: 12rem;
+}
+
+
+#btn2:hover {
+    background-color: #119DA4;
+    height: 6rem;
+    width: 12rem;
+}
+
+
+#btn3:hover {
+    background-color: #19647E;
+    height: 6rem;
+    width: 12rem;
+}
+
